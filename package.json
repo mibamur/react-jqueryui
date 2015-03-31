@@ -4,7 +4,7 @@
   "description": "Easily wrap jQuery plugins with React",
   "main": "src/index.js",
   "dependencies": {
-    "react": "^0.13.2"
+    "react": "^0.13.1"
   },
   "devDependencies": {
     "jsxc": "~0.1.3"
