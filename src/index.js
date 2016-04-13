@@ -25,7 +25,8 @@ function wrapWidget(name) {
     },
 
     _runPlugin: function() {
-      var $node = jQuery(this.getDOMNode());
+      // var $node = jQuery(this.getDOMNode());
+      var $node = jQuery(React.findDOMNode(this));
       $node[name](this.props);
       this.$ = $node;
     },
